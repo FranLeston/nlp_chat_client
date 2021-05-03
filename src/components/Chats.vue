@@ -109,8 +109,8 @@ export default {
   name: "Chats",
 
   mounted() {
-    this.interval = setInterval(() => this.getChatData(), 3000);
-    this.interval2 = setInterval(() => this.getUsers(), 5000);
+    this.interval = setInterval(() => this.getChatData(), 3500);
+    this.interval2 = setInterval(() => this.getUsers(), 8000);
   },
 
   data() {
